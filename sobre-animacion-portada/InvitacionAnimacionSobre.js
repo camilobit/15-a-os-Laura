@@ -8,13 +8,13 @@ boton.addEventListener("click", function () {
   if (!sound) {
     console.log("Prendido");
     v.play();
-    reproductorIcon.classList.replace("fa-volume-up", "fa-volume-off");
+    reproductorIcon.classList.replace("bi-volume-up-fill", "bi-volume-mute-fill");
     sound = true;
     v.volume = "0.4";
   } else {
     console.log("Apagado");
     v.pause();
-    reproductorIcon.classList.replace("fa-volume-off", "fa-volume-up");
+    reproductorIcon.classList.replace("bi-volume-mute-fill", "bi-volume-up-fill");
     sound = false;
   }
 });

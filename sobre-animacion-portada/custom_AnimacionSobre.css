@@ -99,12 +99,14 @@
    .fixReproductorControl i {
      line-height: 4.5rem;
      font-size: 3.2rem;
+     color: white;
    }
  }
 
  .fixReproductorControl i {
    line-height: 4rem;
    font-size: 2.5rem;
+   color: white;
  }
 
 
